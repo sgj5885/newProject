@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html leng="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
+    <link rel="stylesheet" href="basketballBoard.css">
+  </head>
+  <body>
+    <div>
+      <img class="teams" src="basketball-154518_640.webp" alt="Home img">
+      <img class="teams" src="basketball-306498_640.webp" alt="Guest img">
+      <section>
+        <header>
+          
+        </header>
+      </section>
+      <section id="home">
+        <h1>HOME</h1>
+        <h2 id="count-board">0</h2>
+        <button id="increment-btn1" onclick="incrementHome()">+1</button>
+        <button id="increment-btn2" onclick="incrementHomeDos()">+2</button>
+        <button id="increment-btn3" onclick="incrementHomeTres()">+3</button>
+        <button id="reset-btn" onclick="resetHome()">RESET</button>
+      </section>
+      <section id="guest">
+        <h1>GUEST</h1>
+        <h2 id="count-board2">0</h2>
+        <button id="increment-btn1" onclick="incrementGuest()">+1</button>
+        <button id="increment-btn2" onclick="incrementGuestDos()">+2</button>
+        <button id="increment-btn3" onclick="incrementGuestTres()">+3</button>
+        <button id="reset-btn" onclick="resetGuest()">RESET</button>
+      </section>
+    </div>
+    <script src="basketballBoard.js"></script>
+  </body>
+</html>
